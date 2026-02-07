@@ -6,12 +6,171 @@
     <title>PetCarePlus</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Your CSS -->
     <link rel="stylesheet" href="css/style.css">
+   
+
+  
 </head>
 <body>
-    <h1 class="text-center text-primary">Welcome to PetCarePlus</h1>
+   
+    <!-- HEADER SECTION -->
+    <nav class="navbar navbar-expand-lg smallNavbar" style="background-color: #c77360;">
+  <div class="container-fluid"  > <span style="font-size:30px;" class="paw">🐾</span>
+    <a class="navbar-brand" href="#" > <h4 style="font-family: fantasy;" class="text-center text-body-secondary">   PetCarePlus</h4></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll" style="padding-left: 25%;">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="care.html">Care</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="adopt.html">Adopt</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- hero -->
+<!-- 🔹 Hero Section -->
+<section class="bg-light text-center py-5">
+  <div class="container">
+    <h1 class="fw-bold">Welcome to PetCarePlus❤️</h1>
+    <p class="lead">Find loving pets and learn how to care for them</p>
+    <a href="#" class="btn btn-success btn-lg">View Pets</a>
+  </div>
+</section>
+<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" style="margin-left: 10px; margin-right: 10px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/pexels-blue-bird-7210695.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/pexels-miami302-20523421.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/pexels-paublackcat-29978240.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- 🔹 Adoption Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Pets Available for Adoption</h2>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="image/dog.webp" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Buddy</h5>
+          <p class="card-text">Friendly Dog • 1 Months</p>
+          <button class="btn btn-primary">Adopt Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="image/catcare.avif" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Luna</h5>
+          <p class="card-text">Cute Cat • 1 Year</p>
+          <button class="btn btn-primary">Adopt Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="image/Cute cat.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Max</h5>
+          <p class="card-text">Playful Puppy • 6 Months</p>
+          <button class="btn btn-primary">Adopt Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="background-color:#0f1f2b; color:white; padding:50px 0;">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3">
+        <h5>Our Network</h5>
+        <p>Brusheezy</p>
+        <p>Vecteezy</p>
+        <p>Videezy</p>
+        <p>Enterprise</p>
+        <p>Education</p>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Site Links</h5>
+        <p>Licensing Agreement</p>
+        <p>DMCA</p>
+        <p>Affiliate Program</p>
+        <p>Popular Searches</p>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Learn More</h5>
+        <p>FAQs</p>
+        <p>Contact Us</p>
+        <p>About Us</p>
+        <p>Our Blog</p>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Languages</h5>
+        <p>English</p>
+        <p>Español</p>
+        <p>Deutsch</p>
+        <p>Français</p>
+      </div>
+
+    </div>
+
+    <hr style="background:white;">
+
+    <div class="text-center">
+      © 2026 PetCarePlus | All Rights Reserved
+    </div>
+  <div style="font-size: 20px; padding-left:100%">
+  <div class="Icon">
+  <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+  <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+  </div>
+  </div>
+  </div>
+</footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

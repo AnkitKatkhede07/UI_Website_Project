@@ -1,0 +1,385 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+
+.navbar{
+   background-color: rgb(194, 212, 30);
+   font-family: 'Times New Roman', Times, serif;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.navdiv{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 50px;
+    justify-content: flex-end;
+}
+
+#same{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* IMAGE SECTION */
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.main-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.image-heading {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.image-slogan {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: yellow;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 60%;
+}
+
+/* HOME PAGE */
+.carousel-inner img{
+    width: 65%;
+    height: 680px;
+}
+
+/* CARDS */
+#card1, #card2, #card3 {
+    display: inline-block;
+    gap: 10px;
+}
+
+/* GENERAL BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    background: #c77360;
+}
+
+.navbar a{
+    color:white !important;
+    font-weight:bold;
+}
+
+/* ABOUT PAGE */
+.about-header{
+    background: url('image/about-header.jpg');
+    height:320px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-shadow:2px 2px 5px black;
+}
+
+.about-text{
+    padding:20px;
+}
+
+.about-text h2{
+    color:#c77360;
+}
+
+/* CORE VALUES */
+.value-card{
+    transition:0.4s;
+    border-radius:10px;
+}
+
+.value-card:hover{
+    transform:translateY(-10px);
+    background:#c77360;
+    color:white;
+}
+
+/* ADOPT PAGE */
+.adopt-header{
+    background:url('image/adopt-header.jpg');
+    height:260px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    color:white;
+    text-shadow:2px 2px 5px black;
+}
+
+.filter-box{
+    background:#f2f2f2;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #ccc;
+}
+
+.pet-card{
+    transition:0.4s;
+}
+
+.pet-card:hover{
+    transform:translateY(-10px);
+}
+
+.pet-card img{
+    height:200px;
+    object-fit:cover;
+}
+
+.btn-adopt{
+    background:#c77360;
+    color:white;
+    width:100%;
+}
+
+.btn-adopt:hover{
+    background:#a85d4c;
+    color:white;
+}
+
+/* INDEX ICONS */
+.Icon{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.pet-container {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.pet-card {
+    border: 1px solid #ccc;
+    padding: 55px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pet-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 260px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* CONTACT PAGE STRUCTURE */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header {
+    text-align: center;
+    padding: 25px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.contact-header h2 {
+    font-size: 28px;
+}
+
+.contact-header p {
+    color: #555;
+}
+
+.container {
+    flex: 1;
+    max-width: 1100px !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-box {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(223, 26, 26, 0.15);
+    min-height: 500px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.row.g-4 {
+    gap: 20px !important;
+}
+
+/* FOOTER */
+footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+}
+/* about */
+.footer{
+    background:#0f1f2b;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+/* bjbfjlaa */
+/* ----- Care Page List Design ----- */
+
+.new-care-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.12);
+    margin-bottom: 20px;
+}
+
+/* Headings style */
+.new-care-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1b804e;
+}
+
+/* Remove default bullets */
+.new-care-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Individual list item box */
+.new-care-card ul li {
+    background: #f3f6fb;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.new-care-card ul li:hover {
+    background: #e8eff9;
+    transform: translateX(6px);
+}
+
+/* Color themes */
+.dog h3 {
+    color: #d2691e;
+}
+
+.cat h3 {
+    color: #ff4081;
+}
+
+/* care img css */
+/* IMAGE SIDE PERFECT FIX */
+.care-image {
+    width: 100%;
+    height: 420px;            /* fixed professional height */
+    object-fit: cover;        /* image crop hoil pan distort honar nahi */
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* ROW ALIGNMENT FIX */
+.row.align-items-center {
+    align-items: stretch !important;   /* same height columns */
+}
+
+/* CARD HEIGHT MATCH */
+.new-care-card {
+    height: 420px;            /* same as image height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* RESPONSIVE FIX */
+@media (max-width: 768px) {
+
+    .care-image {
+        height: 280px;
+        margin-top: 15px;
+    }
+
+    .new-care-card {
+        height: auto;
+    }
+}
+/* ///// */

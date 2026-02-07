@@ -8,10 +8,156 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Your CSS -->
+    
     <link rel="stylesheet" href="css/style.css">
+    
+
 </head>
 <body>
-    <h1>Adoption Info</h1>
+   <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">PetCarePlus</a>
+
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="care.html">Care</a></li>
+        <li class="nav-item"><a class="nav-link" href="adopt.html">Adopt</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- FILTER SECTION -->
+<section class="container my-5">
+
+<div class="filter-box">
+
+  <div class="row">
+
+    <div class="col-md-3">
+      <select class="form-select">
+        <option>Pet Type</option>
+        <option>Dog</option>
+        <option>Cat</option>
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <select class="form-select">
+        <option>Age</option>
+        <option>Puppy/Kitten</option>
+        <option>Adult</option>
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <select class="form-select">
+        <option>Breed</option>
+        <option>Any</option>
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <button class="btn btn-success w-100">Search 🔍</button>
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- PET LISTING -->
+<section class="container my-5">
+
+<div class="row">
+
+<!-- PET 1 -->
+<div class="col-md-4 mb-4">
+  <div class="card pet-card shadow">
+    <img src="image/dog.webp" class="card-img-top">
+    <div class="card-body text-center">
+      <h5>Buddy</h5>
+      <p>Age: 2 Years</p>
+      <button class="btn btn-adopt">Adopt Me</button>
+    </div>
+  </div>
+</div>
+
+<!-- PET 2 -->
+<div class="col-md-4 mb-4">
+  <div class="card pet-card shadow">
+    <img src="image/pexels-flowerstofox-1835007.jpg" class="card-img-top">
+    <div class="card-body text-center">
+      <h5>Luna</h5>
+      <p>Age: 1 Year</p>
+      <button class="btn btn-adopt">Adopt Me</button>
+    </div>
+  </div>
+</div>
+
+<!-- PET 3 -->
+<div class="col-md-4 mb-4">
+  <div class="card pet-card shadow">
+    <img src="image/headdog.avif" class="card-img-top">
+    <div class="card-body text-center">
+      <h5>Max</h5>
+      <p>Age: 6 Months</p>
+      <button class="btn btn-adopt">Adopt Me</button>
+    </div>
+  </div>
+</div>
+
+<!-- PET 4 -->
+<div class="col-md-4 mb-4">
+  <div class="card pet-card shadow">
+    <img src="image/Cute cat.jpg" class="card-img-top">
+    <div class="card-body text-center">
+      <h5>Charlie</h5>
+      <p>Age: 3 Years</p>
+      <button class="btn btn-adopt">Adopt Me</button>
+    </div>
+  </div>
+</div>
+
+<!-- PET 5 -->
+<div class="col-md-4 mb-4">
+  <div class="card pet-card shadow">
+    <img src="image/slid3.avif" class="card-img-top">
+    <div class="card-body text-center">
+      <h5>Bella</h5>
+      <p>Age: 8 Months</p>
+      <button class="btn btn-adopt">Adopt Me</button>
+    </div>
+  </div>
+</div>
+
+<!-- PET 6 -->
+<div class="col-md-4 mb-4">
+  <div class="card pet-card shadow">
+    <img src="image/slid1.avif" class="card-img-top">
+    <div class="card-body text-center">
+      <h5>Rocky</h5>
+      <p>Age: 1 Year</p>
+      <button class="btn btn-adopt">Adopt Me</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2026 PetCarePlus | Adopt Love ❤️
+</div>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
